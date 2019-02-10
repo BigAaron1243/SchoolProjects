@@ -1,36 +1,21 @@
-import urllib.request
-import tkinter
-import re
-import time
+from tkinter import *
 
 
-def get_external_ip():
-    with urllib.request.urlopen("https://ipapi.co/ip/") as url:
-        s = url.read()
-        address = s.decode("utf-8")
-        return address
+def show_entry_fields():
+    print("First Name: %s\nLast Name: %s" % (e1.get(), e2.get()))
 
 
-window = tkinter.Tk()
-window.title("Mo Bamba Machine")
-window.geometry("300x150")
-lbl = tkinter.Label(window, text="Hello, You have been hacked")
-lbl1 = tkinter.Label(window, text="Please enter your unlock code")
-ws = tkinter.Label(window, text="")
-ent = tkinter.Entry(window)
-btn = tkinter.Button(window, text="Submit")
-ws1 = tkinter.Label(window, text="")
-ws2 = tkinter.Label(window, text="")
+master = Tk()
+Label(master, text="First Name").grid(row=0)
+Label(master, text="Last Name").grid(row=1)
 
-lbl.pack()
-lbl1.pack()
-ws2.pack()
-ent.pack()
-ws.pack()
-btn.pack()
-ws1.pack()
-window.mainloop()
+e1 = Entry(master)
+e2 = Entry(master)
 
-address = get_external_ip()
-print(address)
-input()
+e1.grid(row=0, column=1)
+e2.grid(row=1, column=1)
+
+Button(master, text='Quit', command=master.quit).grid(row=3, column=0, sticky=W, pady=4, columnspan=2)
+Button(master, text='Show', command=show_entry_fields).grid(row=3, column=1, sticky=W, pady=4)
+
+mainloop()
