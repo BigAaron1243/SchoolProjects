@@ -7,3 +7,4 @@ if %yn% == n exit
 if %yn% == N exit
 :y
 git pull origin master
+timeout 3 >NUL
