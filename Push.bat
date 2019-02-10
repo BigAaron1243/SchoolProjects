@@ -13,3 +13,4 @@ if %yn% == N exit
 git add %files%
 git commit -m "Push via app"
 git push origin master
+timeout 3 >NUL
