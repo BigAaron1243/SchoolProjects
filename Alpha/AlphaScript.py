@@ -1,10 +1,17 @@
-def check(word, wordList, response):
-    if word in wordList:
-        print(response)
+def check(wordList, response):
+    words = ['Nigga', 'Nigger']
+    x = len(words)
+    z = 0
+    for y in range(0, x):
+        print(words[z])
+        if words[z] in wordList:
+            print(response)
+        z = z + 1
 
 
 while True:
-    userInput = input("Ask Shit Ai a question: ")
+    user = input("Ask Shit Ai a question: ")
+    userInput = user.lower()
     userInputSplit = userInput.split(" ")
-    check(["Nigger", "Nigga"], userInputSplit, "No you cant say that thats racist")
+    check(userInputSplit, "No you cant say that that's racist")
     input()
