@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631fb642-c67d-4cce-b109-947cf7cbfd89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wowow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wowow.txt" afterDir="false" />
-    </list>
+    <list default="true" id="631fb642-c67d-4cce-b109-947cf7cbfd89" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -49,8 +45,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1192" />
-    <option name="y" value="28" />
+    <option name="x" value="77" />
+    <option name="y" value="202" />
     <option name="width" value="1250" />
     <option name="height" value="450" />
   </component>
@@ -153,7 +149,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1192" y="28" width="1250" height="450" extended-state="0" />
+    <frame x="77" y="202" width="1250" height="450" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -180,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
